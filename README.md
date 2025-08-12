@@ -73,7 +73,7 @@ I am a Full-Stack Developer with a strong focus on building robust and scalable 
   <img alt="Williams's Profile Trophies" src="https://github-profile-trophy.vercel.app?username=williamsmata&theme=dracula&no-bg=true&no-frame=true&column=8&margin-w=8&margin-h=8" height="150px"/>
 </p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/dist/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/dist/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/dist/github-contribution-grid-snake.svg">
 </picture>
