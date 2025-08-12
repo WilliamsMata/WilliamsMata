@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="30" role="img" aria-label="GitHub">
+  <title>GitHub</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="99" height="30" rx="6" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="36" height="30" fill="#333"/>
+    <rect x="36" width="63" height="30" fill="#181717"/>
+    <rect width="99" height="30" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <image x="7" y="7" width="22" height="16" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkdpdEh1YjwvdGl0bGU+PHBhdGggZD0iTTEyIC4yOTdDNS4zNzMgLjI5NyAwIDUuNjcgMCAxMi4yOTdjMCA2LjYyMyA0LjI2NyAxMi4yMjMgOS45NDMgMTQuMjA1LjY5My4xMjggMS4xMDQtLjUgMS4xMDQtMS4xMTIgMC0uNTQ3LS4wMi0xLjk4NC0uMDMyLTMuODg4LTQuMTQzLjg5OC01LjAyMi0xLjcyMi01LjMwNy0yLjE4OC0uNDk4LS4zNjYtMS4xNjQtMS41MzgtMS40NDItMS44My0uMjk4LS4zMTUtLjc0OC0uNjEyLS4wMTgtLjYyNy43MS0uMDE1IDEuMjIzLjczNSAxLjM5NSAxLjAxNSAxLjIyMyAxLjkxNiAzLjIgMS4zNjIgMy45OC45NDMuMTEtLjc1LjQyNy0xLjM2My44MDktMS42NzgtMy4wMy0uMzQ1LTUuOTg3LTEuNDk4LTUuOTg3LTYuNjA4IDAtMS40NzIuNTM4LTIuNjcuOS0zLjYxMy0uMDktLjM0NS0uMzktMS43MS4xMS0zLjU2IDAgMCAxLjE0My0uMzY2IDIuODI1IDEuMzQ4IDEuMDktLjI4NyAyLjI1My0uNDMgMy40MTctLjQzczIuMzI4LjE0MyAzLjQxNy40M2MxLjY4Mi0xLjcxMyAyLjgyNS0xLjM0OCAyLjgyNS0xLjM0OC41IDIuODUuMiAzLjIxNS4xMSAzLjU2LjM2My45NDQuOSAyLjE0MS45IDMuNjEzIDAgNS4xMjYtMi45NjMgNi4yNTgtNi4xMyA2LjYwOC40My4zNTQgMS4xNzggMS4wNjcgMS4xNzggMi4xNTIgMCAxLjU2Mi0uMDIgMi44Mi0uMDIgMy4yMTUgMCAuNjIgLjQxIDEuMjQgMS4xMTUgMS4xMTNDMTkuNzM3IDI0LjUxIDI0IDE4LjkxNCAyNCAxMi4yOTdDMTguNjkzIDUuNjcgMTIgLjI5N3oiLz48L3N2Zz4="/>
+    <text aria-hidden="true" x="665" y="190" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">GitHub</text>
+    <text x="665" y="180" transform="scale(.1)" fill="#fff" textLength="530">GitHub</text>
+  </g>
+</svg>

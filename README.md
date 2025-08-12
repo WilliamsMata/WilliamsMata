@@ -2,14 +2,14 @@
 <h3 align="center">A Full-Stack Developer creating beautiful, scalable, and high-performance applications.</h3>
 
 <p align="center">
-  <a href="https://williamsmata.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=googlechrome&label=&color=339933&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="portfolio badge"/>
+  <a href="https://williamsmata.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/assets/portfolio-button-animated.svg" alt="portfolio badge"/>
   </a>
-  <a href="https://linkedin.com/in/williams-mata" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="linkedin badge"/>
+  <a href="https://linkedin.com/in/williams-mata" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/assets/linkedin-button.svg" alt="linkedin badge"/>
   </a>
-  <a href="https://github.com/WilliamsMata" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="github badge"/>
+  <a href="https://github.com/WilliamsMata" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/assets/github-button.svg" alt="github badge"/>
   </a>
 </p>
 
@@ -64,7 +64,7 @@ I am a Full-Stack Developer with a strong focus on building robust and scalable 
 ### 📊 My GitHub Statistics & Activity
 
 <p align="center">
-  <table align="center">
+  <table align="center" border="0">
     <tr>
       <td align="center">
         <a href="https://github.com/anuraghazra/github-readme-stats">

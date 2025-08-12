@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118" height="30" role="img" aria-label="Portfolio">
+  <title>Portfolio</title>
+  <style>
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 3px #339933); }
+      50% { filter: drop-shadow(0 0 8px #48ff48); }
+    }
+    .container {
+      animation: glow 2.5s infinite ease-in-out;
+    }
+  </style>
+  <g class="container">
+    <linearGradient id="s" x2="0" y2="100%">
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <clipPath id="r">
+      <rect width="118" height="30" rx="6" fill="#fff"/>
+    </clipPath>
+    <g clip-path="url(#r)">
+      <rect width="36" height="30" fill="#333"/>
+      <rect x="36" width="82" height="30" fill="#339933"/>
+      <rect width="118" height="30" fill="url(#s)"/>
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+      <image x="7" y="7" width="22" height="16" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkdvb2dsZSBDaHJvbWU8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQzUuMzczIDAgMCA1LjM3MyAwIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyUzE4LjYzNyAwIDEyIDB6bTAgMjEuODkyYy01LjQ1NSAwLTkuODkyLTQuNDM3LTkuODkyLTkuODkyUzYuNTQ1IDIuMTA4IDEyIDIuMTA4czkuODkyIDQuNDM3IDkuODkyIDkuODkyLTQuNDM3IDkuODkyLTkuODkyIDkuODkyem01LjQtMTIuNjg0bC0uMDE0LS4wMDUtOC41NTQgNC45MzlhLjIuMiAwIDAwLS4xLjE3M3YxLjk5M2MwIC4wNC4wMTQuMDg1LjAzMy4xMjRsMi45MjIgMS42ODYgNC4zNjQtNy41MDctMy4xMi0xLjc4em0tMi45NjcgMi4xNThsLTQuMDcgMi4yODdhMS4wMyAxLjAzIDAgMDAwIDEuOTA3bDEuOTIzIDEuMDgyYy41NTQtLjA4Mi44OTItLjI3Ny44OTItLjI3N2wzLjgxOC0yLjEzNC0yLjU2My0yLjg2NnptLS4zMDggMy4xODdjLS40MjYuMjM5LTEuMTU4LjY1LTEuNzUuOTg2YTkuODk0IDkuODk0IDAgMDAtNC4yNTcgMS45MDMgOS45MDcgOS45MDcgMCAwMC0yLjE0Ny0uNDY0IDkuOTg3IDkuOTg3IDAgMDAtNi44NCA0LjIyMyA5Ljg3NyA5Ljg3NyAwIDAwOC45ODMgNS43MzIgOS44OCA5Ljg4IDAgMDA5Ljg4LTkuODhjMC0xLjE4Ny0uMjE0LTIuMzE2LS42MS0zLjM2MmwtMy4yMTkgMS44NTZ6bS0uMjEgMy44ODhjLTEuMzggMC0yLjUtMS4xMi0yLjUtMi41czEuMTItMi41IDIuNS0yLjUgMi41IDEuMTIgMi41IDIuNS0xLjEyIDIuNS0yLjUgMi41eiIvPjwvc3ZnPg=="/>
+      <text aria-hidden="true" x="760" y="190" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="720">Portfolio</text>
+      <text x="760" y="180" transform="scale(.1)" fill="#fff" textLength="720">Portfolio</text>
+    </g>
+  </g>
+</svg>
