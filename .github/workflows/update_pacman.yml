@@ -1,0 +1,30 @@
+name: Update Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update-Contribution-Graph
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Joon-Bae/Joon-Bae@v1.2.0
+        with:
+          user: ${{ github.repository_owner }}
+
+          OUT_PATH: "output/pacman-contribution-graph.svg"
+
+          DARK_OUT_PATH: "output/pacman-contribution-graph-dark.svg"
+
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update pacman contribution graph"
+          file_pattern: output/*.svg
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions <actions@github.com>"
