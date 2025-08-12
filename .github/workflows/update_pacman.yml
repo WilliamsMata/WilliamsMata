@@ -1,17 +1,21 @@
-name: Update Pac-Man Contribution Graph
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update-Contribution-Graph
+    name: Generate Contribution Snake
+
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v3
+
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -23,7 +27,7 @@ jobs:
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update pacman contribution graph"
+          commit_message: "chore: update contribution snake animation"
           file_pattern: dist/*.svg
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
