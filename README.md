@@ -64,7 +64,9 @@ I am a Full-Stack Developer with a strong focus on building robust and scalable 
   <table align="center" border="0">
     <tr>
       <td align="center">
-        <img alt="Williams's Profile Trophies" src="https://github-profile-trophy.vercel.app?username=williamsmata&theme=dracula&no-bg=true&no-frame=true&column=5&row=1&margin-w=8&margin-h=8" height="70px"/>
+        <a href="https://github.com/anuraghazra/github-readme-stats">
+          <img alt="Williams's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=williamsmata&show_icons=true&theme=dracula&rank_icon=github" height="170px"/>
+        </a>
       </td>
       <td align="center">
         <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -73,6 +75,9 @@ I am a Full-Stack Developer with a strong focus on building robust and scalable 
       </td>
     </tr>
   </table>
+</p>
+<p align="center">
+  <img alt="Williams's Profile Trophies" src="https://github-profile-trophy.vercel.app?username=williamsmata&theme=dracula&no-bg=true&no-frame=true&column=5&row=1&margin-w=8&margin-h=8" height="140px"/>
 </p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WilliamsMata/WilliamsMata/main/dist/github-contribution-grid-snake-dark.svg">
